@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Book List</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<div class="logo">
+			<img src="coleman-logo.jpg" alt="Coleman University Logo">
+			<img src="logo.png" alt="Book Finder">		
+		</div>
+		<p>List last updated: <span id="dateChange"></span></p>
+		<p class="small-icon"><a href="http://coleman.edu/_files/pdf/Book_List_9.21.16.pdf" target="_blank"><img alt="download full list" src="pdf.png"/>Download the Full List Here</a></p>
+	<header id="header">
+		<form id="formResults">
+			<div class="blockLevel"><input type="text" placeholder="search by course" id="course" /></div>
+			<input type="button" value="search &#128269;" id="search"><input type="button" value="Show All &#10010;" id="showAll">
+		</form>
+	</header>
+	<div id="list"></div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/books.js"></script>
+	<script src="js/functions.js"></script>
+	<script>
+		bookList("#list", books);
+		search("#list", books);
+		$("#dateChange").html(lastUpdate);
+		$(document).ready(function(){
+			$("#header").sticky({topSpacing:0});
+		});
+	</script>
+</body>
+<!--  
+	Developer: Ryan Jones
+	https://www.linkedin.com/in/drjonesyjones
+	https://github.com/drjonesy
+ -->
+</html>

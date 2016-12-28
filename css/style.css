@@ -1,0 +1,47 @@
+.logo{ display: block;  }
+	.logo img {height: 3em;}
+.small-icon{}
+	.small-icon a {color: #C91C1C;}
+	.small-icon img {height: 1.5em;}
+
+.box{ height: 10em; width: 100%; display: block; margin:1em 0;}
+.box img{height: 100%; width: 8em; float: left; margin-right: 1em;}
+.box ul{}
+
+.divider{display: block; width: 100%; height: 1px; border-bottom: dotted 2px #999;}
+
+.clear{clear: both;}
+
+h1,h2,h3,h4,h5, a, ul, li, span {margin:0; font-family: sans-serif;}
+ul{list-style-type: none; padding-left:0; }
+a{text-decoration: none;}
+
+h1{font-size: 1.6em;}
+h2{font-size: 1em; padding-bottom: .8em;}
+h3{font-size: 1.3em;}
+
+h5{font-size: .8em; margin-top:1em; display: inline-block; padding-right:.5em;}
+h5:before{content: " | ";}
+h5 a{color: #4AB3F0;}
+h5 a:hover{text-decoration:underline; color:#8bc34a;}
+
+/* Form Elements */
+#header{ 
+	background-color: #4AB3F0; 
+	padding:1em;
+	border-bottom:solid 3px #4E758C;
+	margin-left:-10px;
+}
+#formResults {display: block; }
+#formResults .blockLevel{display: block; margin-bottom: .5em;}
+#formResults input[type="text"]{width:98%; font-size:1.5em; padding:.4em;}
+input[type="button"]{
+	width: 10em;
+	font-size: 1em; 
+	font-weight: bold;
+	padding:.5em 0; 
+	text-transform: uppercase; 
+	margin-right: .5em;
+}
+input[type="button"]:hover{cursor: pointer; }
+
