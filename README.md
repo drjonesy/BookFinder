@@ -36,7 +36,7 @@ The links array is optional.
 - Uses JPEG thumbnail files (.jpg) 
 - Save files using the ISBN number
 - To change this: open the js/functions.js file
- - Locate and : function listings(array, i){...} and change or remove the .jpg extenstion
+ - Locate: function listings(array, i){...} and change or remove the .jpg extenstion
  ```
  result +='<img src="images/'+array[i].ISBN+'.jpg" />';
  ```
