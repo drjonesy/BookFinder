@@ -10,6 +10,8 @@ Licensed under the gplv3 license.
 - jQuery
 - jQuery Sticky > http://stickyjs.com/
 
+<img src="bookfinder-screenshot.png" />
+
 ## Editing - books.js
 books.js is made up of two variables.
 - var lastUpdate = "9/28/2016";  -- change this when you update the book list
