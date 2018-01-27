@@ -1,6 +1,6 @@
 #BookFinder App
 
-See a demo here: http://coleman.edu/bookfinder/	
+[Live Example](https://linuxsandbox.coleman.edu/~ad660252086/com319/week09/)
 Licensed under the gplv3 license.
 
 ### Languages
